@@ -8,7 +8,7 @@ from googletrans import Translator  # pip install googletrans==4.0.0rc1
 from print_neatly import print_neatly
 
 
-def translate(file_path, tr, src='it', dst='en', verbose=False, max_retries=5, max_len=55):
+def translate(file_path, tr, src='en', dst='th', verbose=False, max_retries=5, max_len=55):
 
     def translate_sentence(text):
         target = text
