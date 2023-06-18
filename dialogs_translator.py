@@ -10,7 +10,7 @@ from googletrans import Translator  # pip install googletrans==4.0.0rc1
 from print_neatly import print_neatly
 
 
-def translate(file_path, tr, src='it', dst='en', verbose=False, max_retries=5):
+def translate(file_path, tr, src='en', dst='th', verbose=False, max_retries=5):
 
     def translate_sentence(text):
         target = text
@@ -263,8 +263,8 @@ def translate_neatly_common_events(file_path, tr, src='it', dst='en', verbose=Fa
 if __name__ == '__main__':
     ap = argparse.ArgumentParser()
     ap.add_argument("-i", "--input_folder", type=str, default="dialogs")
-    ap.add_argument("-sl", "--source_lang", type=str, default="it")
-    ap.add_argument("-dl", "--dest_lang", type=str, default="en")
+    ap.add_argument("-sl", "--source_lang", type=str, default="en")
+    ap.add_argument("-dl", "--dest_lang", type=str, default="th")
     ap.add_argument("-v", "--verbose", action="store_true", default=False)
     ap.add_argument("-nf", "--no_format", action="store_true", default=False)
     ap.add_argument("-pn", "--print_neatly", action="store_true", default=False)
