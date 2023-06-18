@@ -114,8 +114,8 @@ def translate(file_path, tr, src='it', dst='en', verbose=False, max_retries=5, m
 if __name__ == '__main__':
     ap = argparse.ArgumentParser()
     ap.add_argument("-i", "--input_folder", type=str, default="objects")
-    ap.add_argument("-sl", "--source_lang", type=str, default="it")
-    ap.add_argument("-dl", "--dest_lang", type=str, default="en")
+    ap.add_argument("-sl", "--source_lang", type=str, default="en")
+    ap.add_argument("-dl", "--dest_lang", type=str, default="th")
     ap.add_argument("-v", "--verbose", action="store_true", default=False)
     ap.add_argument("-nf", "--no_format", action="store_true", default=False)
     ap.add_argument("-ml", "--max_len", type=int, default=55)
