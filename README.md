@@ -4,11 +4,6 @@
 
 👊 You worked hard to make your game, now let *AI* work hard for you.
 
-| Original language 🇮🇹 | Automatic Translation  🇺🇸 |
-|:----------------------:|:---------------------------:|
-|  ![](images/ita2.jpg)  |     ![](images/en2.jpg)     |
-|  ![](images/ita1.jpg)  |     ![](images/en1.jpg)     |
-
 ## Why should you use it? 🤔
 
 👉 RPG games usually consist of many thousands of dialog events and other forms of text displaying valuable information
